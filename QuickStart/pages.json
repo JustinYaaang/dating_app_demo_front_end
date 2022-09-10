@@ -4,7 +4,14 @@
 		"style": {
 			"navigationBarTitleText": "uni-app"
 		}
-	}],
+	},
+	{
+		"path": "pages/classification/classification",
+		"style": {
+			"navigationBarTitleText": "分类"
+		}
+	}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
@@ -13,5 +20,26 @@
 		"app-plus": {
 			"background": "#efeff4"
 		}
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#FA4740",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list":[{
+				"fontSize": "11px",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/classification/classification",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "分类"
+			}
+		]
 	}
+	
 }
