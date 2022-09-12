@@ -10,6 +10,18 @@
 		"style": {
 			"navigationBarTitleText": "分类"
 		}
+	},
+	{
+		"path": "pages/moment/moment",
+		"style": {
+			"navigationBarTitleText": "朋友圈"
+		}
+	},
+	{
+		"path": "pages/detail/detail",
+		"style": {
+			"navigationBarTitleText": "详情页"
+		}
 	}
 	],
 	"globalStyle": {
@@ -38,6 +50,18 @@
 				"iconPath": "static/logo.png",
 				"selectedIconPath": "static/logo.png",
 				"text": "分类"
+			},
+			{
+				"pagePath": "pages/moment/moment",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "朋友圈"
+			},
+			{
+				"pagePath": "pages/detail/detail",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "详情页"
 			}
 		]
 	}
