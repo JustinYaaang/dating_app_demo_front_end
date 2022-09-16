@@ -1,3 +1,7 @@
+<style>
+@import "../../style/fonts/icon1/iconfont.css";
+</style>
+
 <template>
 	<view>
 		<!-- 页面顶部导航栏 -->
@@ -18,8 +22,8 @@
 																						
 			<view class="text-mode">
 				<view class="title-mode">我的日常...</view>
-				<view class="normal-line-list">
-					<view class="normal-line">· 没有耳机不能活星人</view>
+				<view class="normal-line-list">					
+					<view class="normal-line">· 没有耳机<view class="iconfont icon-pinglun"></view>不能活星人</view>
 					<view class="normal-line">· 公司和家两点一线的生活</view>
 					<view class="normal-line">· 读书音乐篮球</view>					
 				</view>				

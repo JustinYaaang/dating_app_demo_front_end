@@ -1,0 +1,23 @@
+{
+  "id": "3651023",
+  "name": "template1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "31738656",
+      "name": "评论",
+      "font_class": "pinglun",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "31738721",
+      "name": "live",
+      "font_class": "live",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    }
+  ]
+}
