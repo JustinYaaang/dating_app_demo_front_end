@@ -7,7 +7,15 @@
 		<!-- 页面顶部导航栏 -->
 		<view class="user-like-info">
 			<view class="like-photo">				
-				<view class="cover-image-item"><image :src=personInfo.pic[0]></image></view>																								
+				<view class="cover-image-item">
+					<image :src=personInfo.pic[0]>
+						<view class="user-name">达达信徒 27</view>
+						<view class="user-job">无业游民</view>
+						<view class="user-school">克莱登大学</view>
+						
+					</image>
+					
+				</view>																								
 			</view>		
 				
 			<view class="text-mode">
@@ -144,10 +152,44 @@
 			width: 650rpx;
 			height: 950rpx;
 			margin-bottom: 20rpx;
+			position: relative;
 			image {
 				width: 650rpx;
 				height: 950rpx;
 				border-radius: 40rpx;
+			}
+			.user-name {
+				width: 500rpx;
+				height: 200rpx;
+			    top: 770rpx;
+				left: 10px;
+				margin-bottom: 20rpx;
+				position: absolute;
+				color: #FFFFFF;
+				font-size:150%;
+				text-shadow: 1px 1px 0 #000000;
+			}
+			.user-job {
+				width: 500rpx;
+				height: 180rpx;
+			    top: 850rpx;
+				left: 10px;
+				margin-bottom: 20rpx;
+				position: absolute;
+				color: #FFFFFF;
+				font-size:100%;
+				text-shadow: 1px 1px 0 #000000;
+			}
+			.user-school {
+				width: 500rpx;
+				height: 180rpx;
+			    top: 900rpx;
+				left: 10px;
+				margin-bottom: 20rpx;
+				position: absolute;
+				color: #FFFFFF;
+				font-size:100%;
+				text-shadow: 1px 1px 0 #000000;
 			}
 		};
 		.normal-image-item {
